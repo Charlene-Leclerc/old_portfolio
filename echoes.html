@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="#">
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="./projectsStyle.css">
+</head>
+
+<body>
+<header class="header">
+    <h2 class="heading">Echoes Of Dawn</h2>
+</header>
+
+<section class="main-view" id="main-view">
+
+    <div class="main-img">
+        <video controls width="1000" id="main-video">
+        <source src="./videos/echoes/echoesTrailer.mp4" type = "video/mp4">
+        </video>
+    </div>
+    <div class="description" style="width: 500px;">
+        <h1><span>Projet étudiant</span>, 1ère année</h1>
+        <h2><span>Durée de développement</span> : 3 mois</h2>
+        <h2><span>Equipe</span> : 4 programmeurs, 4 graphistes</h2>
+        <h2><span>Language</span> : C</h2><br><br>
+        <h1><span>Résumé</span></h1>
+        <p>Avancez dans un monde rempli d'ennemi, visitez, construisez les bâtiment nécessaire à votre progression pour
+            améliorer votre équipement et être prêt à affronter l'ultime boss !
+        </p><br><br>
+
+        <h1><span>Ma part de travail</span></h1>
+        <p>Gestion de toute la partie personnage (joueur):<br>
+            Déplacements, animations, skills, attaque, récolte, son.<br>
+            Gestion de la partie récolte:<br>
+            Système de loot, interface<br>
+        </p>
+    </div>
+</section>
+
+<div class="container">
+
+    <div class="img-box">
+        <a href="#" id="trailer-screen">
+            <video controls width="250" id="trailer-mp4">
+                <source src="./videos/echoes/echoesTrailer.mp4" type = "video/mp4">
+            </video>
+        </a>
+    </div>
+
+    <div class="img-box">
+        <a href="#" id="rebuild">
+            <video controls width="250" id="rebuild-mp4">
+                <source src='./videos/echoes/echoesbuilding.mp4' type = "video/mp4">
+            </video>
+        </a>
+    </div>
+
+    <div class="img-box">
+        <a href="#" id="grind">
+            <video controls width="250" id="grind-mp4">
+                <source src="./videos/echoes/echoesgrind.mp4" type = "video/mp4">
+            </video>
+        </a>
+    </div>
+</div>
+
+
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="module" src="echoes.js"></script>
+
+</body>
+
+</html>

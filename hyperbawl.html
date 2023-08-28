@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="#">
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel = "stylesheet" href="./projectsStyle.css">
+</head>
+
+<body>
+<header class = "header">
+    <a href = "index.html#portfolio"></a>
+    <h2 class="heading">Hyperbawl</h2>
+</header>
+
+<section class="main-view" id="main-view">
+
+    <div class="main-img">
+        <video controls width="1000" id ="main-video" type="video/mp4">
+            <source src="./videos/hyperbawl/HyperbawlTrailer.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="description" style = "width: 500px;">
+        <h1><span>Projet étudiant</span>, 2ème année</h1>
+        <h2><span>Durée de développement</span> : 3 mois</h2>
+        <h2><span>Equipe</span> : 5 programmeurs, 4 graphistes</h2>
+        <h2><span>Language</span> : C# (Unity)</h2><br><br>
+        <h1><span>Résumé</span></h1>
+        <p>
+            Prenez part à un match d'hyperbawl, en multijoueur 3vs3, et remportez la victoire !
+        </p><br><br>
+        <h1><span>Ma part de travail</span></h1>
+        <p>Développement complet de la partie tutoriel :<br>
+            Un tuto complet pour s'entrainer au déplacement:<br>
+            Course, saut slide.
+            Un tuto complet contre une IA pour s'entrainer en simulation de match:<br>
+            Ajout d'un ia capable de tenir un match contre le joueur:<br>
+            L'ia peut courir, esquiver, tacler le joueur pour tenter de lui récuperer la balle, marquer/arrêter les buts.<br>
+            Système de point.
+        </p>
+
+    </div>
+</section>
+<div class="container">
+
+    <div class="img-box">
+        <a href="#" id = "trailer-screen">
+            <video controls width="250" id="trailer-mp4" type="video/mp4">
+                <source src="./videos/hyperbawl/HyperbawlTrailer.mp4" type="video/mp4">
+            </video>
+        </a>
+    </div>
+
+    <div class="img-box">
+        <a href="#" id = "map">
+            <video controls width="250" id="map-mp4" type="video/mp4">
+                <source src="./videos/hyperbawl/MapHyperbawl.mp4" type="video/mp4">
+            </video>
+        </a>
+    </div>
+
+    <div class="img-box">
+        <a href="#" id = "perso">
+            <video controls width="250" id="perso-mp4" type="video/mp4">
+                <source src="./videos/hyperbawl/PersoHyperbawl.mp4" type="video/mp4">
+            </video>
+        </a>
+    </div>
+
+    <div class="img-box">
+        <a href="#" id = "reseau">
+            <video controls width="250" id="reseau-mp4" type="video/mp4">
+                <source src="./videos/hyperbawl/Reseau.mp4" type="video/mp4">
+            </video>
+        </a>
+    </div>
+</div>
+
+
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="module" src="./hyperbawl.js"></script>
+
+</body>
+
+
+
+</body>
+
+</html>
