@@ -41,7 +41,7 @@ section {
     left: 0;
     width: 100%;
     padding: 2rem 9%;
-    background: var(--bg-color);
+    background: var(--second-bg-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -79,7 +79,7 @@ section {
 }
 
 .home-img img {
-    width: 20vw;
+    width: 30vw;
 }
 
 .home-content h3 {
@@ -154,55 +154,46 @@ span {
 
 .about {
 
+
     background: var(--second-bg-color);
-  
+
 }
 
-.about-content{
+.about-content {
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
     align-items: center;
-    border-radius: 1rem;
-    padding-top: 5rem;
+    flex-wrap: wrap;
+
 
 }
 
-.about .rightpart{
-    margin-top:5rem;
-    margin-right: 3rem;
-    background-color: var(--bg-color);
-    border-radius: 4rem;
+
+.about-content .about-box {
+    background: var(--bg-color);
+    padding: 3rem 2rem 4rem;
+
+    border-radius: 2rem;
+    text-align: center;
     box-shadow: 0 0 1rem var(--main-color);
-    padding: 1rem 2.8rem;
+    transition: .5s ease;
+    height: 380px;
+    margin-top: 20px;
+
 }
 
-.about-content .leftparttop{
-    margin-bottom: 10%;
-    margin-top: 10%;
-    margin-right: 3rem;
-    background-color: var(--bg-color);
-    border-radius: 4rem;
-    box-shadow: 0 0 1rem var(--main-color);
-    padding: 1rem 2.8rem;
-}
-.about-content .leftpartbottom{
-    
-    margin-right: 3rem;
-    background-color: var(--bg-color);
-    border-radius: 4rem;
-    box-shadow: 0 0 1rem var(--main-color);
-    padding: 1rem 2.8rem;
-}
 .about-img img {
-    width: 20vw;
-    margin-top: 20%;
+    width: 25vw;
+    margin: 2%;
     background: var(--second-bg-color);
+
 }
 
 .heading {
     text-align: center;
     font-size: 4.5rem;
-    padding-bottom: 2rem;;
+    padding-bottom: 5rem;
+
 }
 
 .about-content h2 {
@@ -245,88 +236,92 @@ span {
 }
 
 
-.services h2{
+.services h2 {
     margin-bottom: 5rem;
 }
 
-.services-container{
-    display:flex;
+.services-container {
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap:2rem;
+    gap: 2rem;
 }
 
-.services-container .services-box{
-    flex:1 1 30rem;
+.services-container .services-box {
+    flex: 1 1 30rem;
     background: var(--second-bg-color);
     padding: 3rem 2rem 4rem;
     border-radius: 2rem;
     text-align: center;
-    border:.2rem solid var(--bg-color);
+    border: .2rem solid var(--bg-color);
     transition: .5s ease;
+    height: 320px;
 }
 
-.services-container .services-box:hover{
+.services-container .services-box:hover {
     border-color: var(--main-color);
-    transform:scale(1.05);
+    transform: scale(1.01);
 }
 
-.services-box i{
+.services-box i {
     font-size: 7rem;
-    color:var(--main-color);
+    color: var(--main-color);
 }
 
-.services-box h3{
+.services-box h3 {
     font-size: 2.4rem;
 }
 
-.services-box p{
+.services-box p {
     font-size: 1.4rem;
     margin-bottom: 3rem;
 }
 
-.servicejv-container{
-    
-    display:flex;
+.servicejv-container {
+
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.servicejv-container .servicejv-box{
+.servicejv-container .servicejv-box {
     display: block;
     background: var(--second-bg-color);
     padding: 2rem 2rem 4rem;
     border-radius: 2rem;
     text-align: center;
-    border:.2rem solid var(--bg-color);
+    border: .2rem solid var(--bg-color);
     max-width: 1000px;
     min-width: 1000px;
 }
-.servicejv-box h4{
+
+.servicejv-box h2 {
     font-size: 1.8rem;
     text-align: left;
-    margin-bottom: .2rem;
-    margin-top: 2rem;
-    color:var(--text-color)
-    
+    margin-top: 1rem;
+    line-height: 10px;
+    color: var(--text-color)
 }
 
 
-.servicejv h2{
+.servicejv h2 {
     margin-bottom: 3rem;
 }
-.servicejv h3{
-    color:var(--main-color);
+
+.servicejv h3 {
+    color: var(--main-color);
     margin-bottom: 2rem;
-    font-size:2.6rem;
+    font-size: 2.6rem;
 }
-.servicejv p{
+
+.servicejv p {
     margin-bottom: 0.6rem;
     font-size: 1.4rem;
-    text-align:left;
+    text-align: left;
 }
+
 .portfolio {
     background: var(--second-bg-color);
 }
@@ -344,13 +339,14 @@ span {
 
 }
 
-.porfolio-container .portfolio-etudiant{
+.porfolio-container .portfolio-etudiant {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     align-items: center;
     gap: 2.5rem;
 }
-.portfolio-etudiant .portfolio-perso{
+
+.portfolio-etudiant .portfolio-perso {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     align-items: center;
